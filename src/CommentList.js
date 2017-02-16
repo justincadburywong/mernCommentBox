@@ -14,7 +14,7 @@ class CommentList extends Component {
           key={ comment['_id'] }>
           { comment.text }
         </Comment>
-      )
+      )pr
     })
     return (
       <div style={ style.commentList }>
